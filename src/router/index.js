@@ -1,9 +1,9 @@
 import * as VueRouter from "vue-router";
 
-const Home = () => import("views/tabbar/home/Home");
-const Category = () => import("views/tabbar/category/Category");
-const Cart = () => import("views/tabbar/cart/Cart");
-const Profile = () => import("views/tabbar/profile/Profile");
+const Home = () => import("views/home/Home");
+const Category = () => import("views/category/Category");
+const Cart = () => import("views/cart/Cart");
+const Profile = () => import("views/profile/Profile");
 
 const routes = [
   {
